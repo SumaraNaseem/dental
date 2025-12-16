@@ -3,7 +3,7 @@ import howToWorkImage from "../../assets/Howtowork.png";
 
 function HeroWithForm({
   backgroundImage = howToWorkImage,
-  title = "Precision Dental Care with Printed Surgical Guides",
+  title = "Precision Dental Care with 3D Printed Surgical Guides ",
   description = "Dental implant procedures demand precision, accuracy, and predictability. At Guided Excellence, our 3D surgery implant guides provide dentists with the ultimate tool to achieve seamless implant placement while enhancing patient safety and clinical outcomes. Using state-of-the-art 3D printed surgical guides, we transform complex procedures into highly predictable and efficient workflows.",
 }) {
   const [formData, setFormData] = useState({
@@ -125,11 +125,11 @@ function HeroWithForm({
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16  py-4 ">
           {/* Left Content */}
           <div className="lg:col-span-6 flex justify-center items-center   ">
-            <div className="text-center lg:text-left">
-              <h1 className="text-3xl md:text-4xl lg:text-[50px] font-medium mb-4 md:mb-6 text-white !leading-tight font-afacad">
+            <div className="text-center w-[650px] lg:text-left">
+              <h1 className="text-3xl md:text-4xl lg:text-[50px] font-medium mb-4 md:mb-6 text-white !leading-tight font-inter">
                 {title}
               </h1>
-              <p className="text-white text-base md:text-lg 2xl:max-w-[600px] !leading-relaxed lg:text-[20px] font-normal font-afacad mb-6 md:mb-10 ">
+              <p className="text-white text-base md:text-lg 2xl:max-w-[600px] !leading-relaxed lg:text-[20px] font-normal font-inter mb-6 md:mb-10 ">
                 {description}
               </p>
               <button className="bg-white text-black px-4 md:px-6 py-4 md:py-3 rounded-full text-sm md:text-base xl:text-[20px] font-bold hover:bg-gray-100 transition-colors">

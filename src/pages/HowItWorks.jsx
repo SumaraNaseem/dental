@@ -30,7 +30,7 @@ import RequestSurgicalGuide from "../Components/WhoToWork/RequestSurgicalGuide";
 
 function HowItWorks() {
   return (
-    <div className="">
+    <div className="font-inter">
       {/* ========== SECTION 1: HERO WITH FORM ========== */}
       <HeroWithForm
         backgroundImage={howToWorkImage1}

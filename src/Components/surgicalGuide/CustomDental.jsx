@@ -7,7 +7,7 @@ import icon11 from "../../assets/icon11.png";
 
 function CustomDental() {
   return (
-    <div className="bg-white py-8 sm:py-12 md:py-16 font-afacad">
+    <div className="bg-white py-8 sm:py-12 md:py-16 font-inter">
       <div className="px-4 sm:px-6 md:px-8 lg:px-12 xl:px-24 2xl:px-52">
         {/* Header Section */}
         <div className="text-center mb-8 sm:mb-12 md:mb-16 lg:mb-24">

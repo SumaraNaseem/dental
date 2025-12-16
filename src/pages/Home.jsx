@@ -14,7 +14,7 @@ import Faq from "../Components/HomePage/Faq";
 
 function Home() {
   return (
-    <div className="font-afacad">
+    <div className="font-inter">
       {/* ========== SECTION 1: HERO WITH FORM ========== */}
       <HeroWithForm />
 

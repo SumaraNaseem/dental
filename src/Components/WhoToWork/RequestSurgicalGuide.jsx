@@ -4,7 +4,7 @@ import icon8 from "../../assets/icon8.jpg";
 function RequestSurgicalGuide() {
   return (
     <div className="bg-white  ">
-        <div className="font-afacad pl-4 sm:pl-6 md:pl-8 lg:pl-12 xl:pl-24 2xl:pl-52">
+        <div className="font-inter pl-4 sm:pl-6 md:pl-8 lg:pl-12 xl:pl-24 2xl:pl-52">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 items-center">
             {/* Left Section - Text Content */}
             <div className=" space-y-6">

@@ -64,7 +64,7 @@ function Navbar() {
           </div>
 
           {/* Desktop Navigation Links */}
-          <div className="hidden lg:flex items-center space-x-4 xl:space-x-6 text-base xl:text-[20px] font-regular font-afacad">
+          <div className="hidden lg:flex items-center space-x-4 xl:space-x-6 text-base xl:text-[20px] font-regular font-inter">
             <Link 
               to="/how-it-works" 
               className="hover:text-blue-900 transition-colors duration-200 px-2 py-1"
@@ -104,7 +104,7 @@ function Navbar() {
           </div>
 
           {/* Desktop Action Buttons */}
-          <div className="hidden lg:flex  items-center space-x-2 xl:space-x-3 text-sm xl:text-[20px] font-bold font-afacad">
+          <div className="hidden lg:flex  items-center space-x-2 xl:space-x-3 text-sm xl:text-[20px] font-bold font-inter">
             <button className="px-3 xl:px-4 py-1.5 xl:py-4 rounded-full border-2 border-[#0C1152] bg-white text-[#0C1152] uppercase hover:bg-blue-50 transition-colors duration-200 text-xs xl:text-base whitespace-nowrap">
               BOOK A FREE CONSULT
             </button>
@@ -146,7 +146,7 @@ function Navbar() {
         >
           <div className="flex flex-col h-full overflow-y-auto px-4 py-6">
             {/* Mobile Navigation Links */}
-            <div className="flex flex-col space-y-4 mb-6 text-lg font-regular font-afacad">
+            <div className="flex flex-col space-y-4 mb-6 text-lg font-regular font-inter">
               <Link 
                 to="/how-it-works" 
                 onClick={closeMenu}
@@ -195,13 +195,13 @@ function Navbar() {
             <div className="flex flex-col space-y-3 mt-auto pt-6">
               <button 
                 onClick={closeMenu}
-                className="w-full px-4 py-3 rounded-full border-2 border-blue-900 bg-white text-blue-900 uppercase font-bold font-afacad hover:bg-blue-50 transition-colors duration-200 text-base"
+                className="w-full px-4 py-3 rounded-full border-2 border-blue-900 bg-white text-blue-900 uppercase font-bold font-inter hover:bg-blue-50 transition-colors duration-200 text-base"
               >
                 BOOK A FREE CONSULT
               </button>
               <button 
                 onClick={closeMenu}
-                className="w-full px-4 py-3 rounded-full bg-blue-900 text-white uppercase font-bold font-afacad hover:bg-blue-800 transition-colors duration-200 text-base"
+                className="w-full px-4 py-3 rounded-full bg-blue-900 text-white uppercase font-bold font-inter hover:bg-blue-800 transition-colors duration-200 text-base"
               >
                 SUBMIT YOUR CASE
               </button>

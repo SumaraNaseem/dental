@@ -6,7 +6,7 @@ import Rectangle26 from "../../assets/Rectangle26.png";
 
 function TechDental() {
   return (
-    <div className="bg-white py-16 font-afacad">
+    <div className="bg-white py-16 font-inter">
     <div className="px-4 sm:px-6 md:px-8 lg:px-12 xl:px-24 2xl:px-52">
       {/* Header Section */}
       <div className="text-center mb-12">
