@@ -34,8 +34,8 @@ function CustomerLogos() {
         <div className="relative">
           <div className="flex animate-slide-logos">
             {duplicatedLogos.map((logo, index) => (
-              <div key={index} className="flex-shrink-0 px-8 md:px-12 lg:px-16">
-                <img src={logo} alt={`Customer ${(index % customerLogos.length) + 1}`} className="w-auto h-12 md:h-12 lg:h-16 object-contain" />
+              <div key={index} className="flex-shrink-0  px-8 md:px-12 lg:px-16">
+                <img src={logo} alt={`Customer ${(index % customerLogos.length) + 1}`} className="w-auto h-12 md:h-12 mt-3 lg:h-16 object-contain" />
               </div>
             ))}
           </div>

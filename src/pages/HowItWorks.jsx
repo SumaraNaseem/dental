@@ -32,7 +32,7 @@ function HowItWorks() {
   return (
     <div className="font-afacad">
       {/* ========== SECTION 1: HERO WITH FORM ========== */}
-      <HeroWithForm
+      <HeroWithForm className="!w-[690px] mx-auto"
         backgroundImage={howToWorkImage1}
         title="Implant Surgical Guide Lab - Get Dental Precision with Care"
         description="For dentists seeking unmatched accuracy in dental implant procedures, Guided Excellence's implant surgical guide lab offers best-in-class dental implant guides for dentists. Our goal is to deliver predictable, safe, and efficient outcomes by bringing the power of digital implant planning for dental labs and guided surgery planning for dentists together under one roof. With every case, our dental implant surgical guide lab ensures every implant procedure meets the highest clinical standards."

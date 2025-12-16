@@ -27,11 +27,11 @@ function WhatIs3DPrinted({
             SUBMIT YOUR CASE
           </button>
         </div>
-        <div className={`lg:absolute ${rightSpacing} lg:-bottom-[0px] xl:-bottom-[0px] 2xl:-top-[85px] z-0`}>
+        <div className={`lg:absolute ${rightSpacing} lg:-bottom-[0px] xl:-bottom-[0px] 2xl:-top-[85px] mt-4 z-0`}>
             <img
               src={image}
               alt="3d surgical image"
-              className={imageClass}
+              className={imageClass} 
             />
           </div>
       </div>

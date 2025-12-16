@@ -70,9 +70,9 @@ function CustomDental() {
 
             <div className="flex justify-center items-center relative z-10 my-8 sm:my-10 md:my-0">
 
-              <div className="relative border-2 border-dashed border-[#0C1152] rounded-full w-[240px] h-[240px] sm:w-[280px] sm:h-[280px] md:w-[320px] md:h-[320px] lg:w-[360px] lg:h-[360px]">
+              <div className="relative border-2 border-dashed border-[#0C1152] rounded-full w-[240px] h-[240px] sm:w-[280px] sm:h-[280px] md:w-[320px] md:h-[320px] lg:w-[300px] lg:h-[300px] xl:w-[360px] xl:h-[360px]">
 
-                <div className="w-[280px] h-[200px] sm:w-[320px] sm:h-[240px] md:w-[380px] md:h-[280px] lg:w-[420px] lg:h-[300px] overflow-hidden absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                <div className="w-[280px] h-[200px] sm:w-[320px] sm:h-[240px] md:w-[380px] md:h-[280px] lg:w-[300px] lg:h-[300px] overflow-hidden absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                   <img
                     src={surgicalimg2}
                     alt="Surgical Guides"

@@ -63,7 +63,7 @@ function SurgicalGuides() {
             image: Rectangle2,
             title: "Tooth Supported Guides",
             description: "Anchor directly to existing teeth for stability.",
-            widthClass: "w-[266px]",
+            widthClass: "w-[316px]",
           },
           {
             id: 2,
@@ -71,7 +71,7 @@ function SurgicalGuides() {
             title: "Bone Supported Guides",
             description:
               "Ideal for edentulous patients, these guides rest directly on the jawbone.",
-            widthClass: "w-[266px]",
+            widthClass: "w-[316px]",
           },
           {
             id: 3,
@@ -79,7 +79,7 @@ function SurgicalGuides() {
             title: "Mucosa Supported Guides",
             description:
               "Designed for soft tissue support when teeth are missing.",
-            widthClass: "w-[276px]",
+            widthClass: "w-[316px]",
           },
         ]}
 

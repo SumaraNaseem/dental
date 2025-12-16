@@ -3,7 +3,7 @@ import howToWorkImage from "../../assets/Howtowork.png";
 
 function HeroWithForm({
   backgroundImage = howToWorkImage,
-  title = "Precision Dental Care with 3D Printed Surgical Guides ",
+  title = "Precision Dental Care with<br/> 3D Printed Surgical Guides ",
   description = "Dental implant procedures demand precision, accuracy, and predictability. At Guided Excellence, our 3D surgery implant guides provide dentists with the ultimate tool to achieve seamless implant placement while enhancing patient safety and clinical outcomes. Using state-of-the-art 3D printed surgical guides, we transform complex procedures into highly predictable and efficient workflows.",
 }) {
   const [formData, setFormData] = useState({
@@ -125,10 +125,8 @@ function HeroWithForm({
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16  py-4 ">
           {/* Left Content */}
           <div className="lg:col-span-6 flex justify-center items-center   ">
-            <div className="text-center w-[660px] lg:text-left">
-              <h1 className="text-3xl md:text-4xl lg:text-[50px] font-medium mb-4 md:mb-6 text-white !leading-tight font-afacad">
-                {title}
-              </h1>
+            <div className="text-center  lg:text-left">
+              <h1 className="text-3xl md:text-4xl lg:text-[50px] font-medium mb-4 md:mb-6 text-white !leading-tight font-afacad" dangerouslySetInnerHTML={{ __html: title }} />
               <p className="text-white text-base md:text-lg 2xl:max-w-[600px] !leading-relaxed lg:text-[20px] font-normal font-afacad mb-6 md:mb-10 ">
                 {description}
               </p>

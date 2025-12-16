@@ -66,7 +66,7 @@ function TypesOfGuides({
               <div className="p-2 sm:p-4 flex items-center justify-center">
                 <img src={guide.image} alt={guide.title} className="w-full h-auto object-cover" />
               </div>
-              <div className="p-2 sm:p-4 md:p-5">
+              <div className="p-2 sm:p-4 ">
                 <h3
                   className={`text-lg sm:text-xl md:text-2xl lg:text-[24px] font-bold text-[#0c1152] ${
                     guide.mbClass || "mb-2 sm:mb-3"
