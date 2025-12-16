@@ -11,7 +11,7 @@ function WhatIs3DPrinted({
   descriptionClass = "text-base md:text-lg lg:text-[20px] font-regular max-w-3xl leading-relaxed",
 }) {
   return (
-    <section className="bg-[#CDCEC9] font-inter py-8 md:py-12 lg:py-16 relative mt-10 md:mt-16 lg:mt-20 ">
+    <section className="bg-[#CDCEC9] font-afacad py-8 md:py-12 lg:py-16 relative mt-10 md:mt-16 lg:mt-20 ">
       <div className="pl-4 sm:pl-6 md:pl-8 mb-10 lg:pl-12 xl:pl-24 2xl:pl-48  flex justify-between items-center">
         <div className="space-y-4 md:space-y-6 ">
           <h1 className={titleClass}>

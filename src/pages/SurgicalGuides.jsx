@@ -28,7 +28,7 @@ import Faq from "../Components/HomePage/Faq";
 
 function SurgicalGuides() {
   return (
-    <div className="font-inter">
+    <div className="font-afacad">
       {/* ========== SECTION 1: HERO WITH FORM (HeroWithForm) ========== */}
       <HeroWithForm
         backgroundImage={Howtowork}
@@ -188,7 +188,7 @@ function SurgicalGuides() {
 
         imageClass="w-[628px] h-[833px]  "
 
-        sectionClass="bg-[#f8f8f8]  py- px-4 sm:px-6 md:px-8  lg:px-12 xl:px-24 2xl:px-52 2xl:pl-[135px] xl:pl-[70px] font-inter "
+        sectionClass="bg-[#f8f8f8]  py- px-4 sm:px-6 md:px-8  lg:px-12 xl:px-24 2xl:px-52 2xl:pl-[135px] xl:pl-[70px] font-afacad "
 
         gridClass="grid grid-cols-1 lg:grid-cols-2 gap- items-center  "
 
@@ -309,7 +309,7 @@ function SurgicalGuides() {
           },
         ]}
         sectionClass="bg-white py-10"
-        containerClass="max-w-6xl mx-auto font-inter"
+        containerClass="max-w-6xl mx-auto font-afacad"
         titleClass="lg:text-[50px] text-[20px] font-bold text-[#0C1152] uppercase"
         titleContainerClass="text-center mb-12"
         questionClass="text-[20px] font-bold text-black"

@@ -11,7 +11,7 @@ export default {
         montserrat: ['Montserrat', 'sans-serif'],
         inter: ['Inter', 'sans-serif'],
         afacad: ['Afacad', 'sans-serif'],
-        sans: ['Inter', 'sans-serif'], // Set Inter as default sans-serif (matches image font)
+        sans: ['Afacad', 'sans-serif'], // Set Afacad as default sans-serif
       },
     },
   },

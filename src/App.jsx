@@ -14,7 +14,7 @@ import Footer from './Components/Footer.jsx'
 export default function App() {
   return (
     <Router>
-      <div className="font-inter">
+      <div className="font-afacad">
         <Navbar />
 
         <Routes>

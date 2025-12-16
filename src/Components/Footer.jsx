@@ -139,7 +139,7 @@ function Footer() {
           </div>
 
           {/* Contact Form */}
-          <div className="lg:col-span-4 text-[18px] sm:text-[20px] font-inter font-regular">
+          <div className="lg:col-span-4 text-[18px] sm:text-[20px] font-afacad font-regular">
             <form onSubmit={handleSubmit} className="space-y-5">
               {formFields.map((field) => (
                 <div key={field.name}>
@@ -195,7 +195,7 @@ function Footer() {
           <div className="lg:col-span-6">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {/* Navigation Links */}
-              <div className="w-full flex justify-start text-[18px] sm:text-[20px] font-regular font-inter">
+              <div className="w-full flex justify-start text-[18px] sm:text-[20px] font-regular font-afacad">
                 <div className="flex flex-col space-y-6">
                   {navLinks.map((link) => (
                     <Link key={link.to} to={link.to} className="">
@@ -214,7 +214,7 @@ function Footer() {
                       alt="Phone"
                       className="w-[22px] sm:w-[24px] md:w-[26px] h-auto"
                     />
-                    <span className="text-[18px] sm:text-[20px] font-regular font-inter">
+                    <span className="text-[18px] sm:text-[20px] font-regular font-afacad">
                       626 604 6504
                     </span>
                   </div>
@@ -225,7 +225,7 @@ function Footer() {
                       alt="Email"
                       className="w-[22px] sm:w-[24px] md:w-[26px] h-auto"
                     />
-                    <span className="text-[18px] sm:text-[20px] font-regular font-inter">
+                    <span className="text-[18px] sm:text-[20px] font-regular font-afacad">
                       info@guided4excellence.com
                     </span>
                   </div>

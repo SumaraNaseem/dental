@@ -3,7 +3,7 @@ import implantPhotoroom from "../../assets/implantPhotoroom.png";
 
 function OurAchievement() {
   return (
-    <div className="bg-[#CDCEC9] py-16 px-8 mt-24 font-inter relative ">
+    <div className="bg-[#CDCEC9] py-16 px-8 mt-24 font-afacad relative ">
     <div className="max-w-7xl mx-auto">
       <div className="text-center mb-12 relative z-10">
         <h2 className="lg:text-[50px] text-[20px] font-bold text-[#0C1152] mb-4">
