@@ -17,7 +17,7 @@ function DoctorConsultation({
 
   // Layout & styling
   image = doc1,
-  sectionClass = "bg-white py-8 md:py-16",
+  sectionClass = "bg-white py-8 md:py-20",
   outerContainerClass = "px-4 sm:px-6 md:px-8 lg:px-12 xl:px-24 2xl:px-52",
   gridClass = "grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center",
   imageWrapperClass =

@@ -15,40 +15,18 @@ import Faq from "../Components/HomePage/Faq";
 function Home() {
   return (
     <div className="font-afacad">
-      {/* ========== SECTION 1: HERO WITH FORM ========== */}
-      <HeroWithForm />
-
-      {/* ========== SECTION 2: CUSTOMER LOGOS ========== */}
-      <CustomerLogos />
-
-      {/* ========== SECTION 3: WHAT IS 3D PRINTED IMPLANT SURGICAL GUIDES ========== */}
-      <WhatIs3DPrinted />
-
-      {/* ========== SECTION 4: TYPES OF 3D PRINTED DENTAL IMPLANT GUIDES ========== */}
-      <TypesOfGuides />
-
-      {/* ========== SECTION 5: WHO CAN BENEFIT ========== */}
-      <WhoCanBenefit />
-
-      {/* ========== SECTION 6: DOCTOR CONSULTATION ========== */}
+     
+    <HeroWithForm />
+    <CustomerLogos />
+    <WhatIs3DPrinted />
+    <TypesOfGuides />
+    <WhoCanBenefit />
       <DoctorConsultation />
-
-      {/* ========== SECTION 7: ADVANTAGES ========== */}
-      <Advantages />
-
-      {/* ========== SECTION 8: TECHNOLOGY ========== */}
+        <Advantages />
       <Technology />
-
-      {/* ========== SECTION 9: STREAMLINED PROCESS ========== */}
-      <StreamlinedProcess />
-
-      {/* ========== SECTION 10: CHOOSING GUIDED EXCELLENCE ========== */}
-      <ChoosingExcellence />
-
-      {/* ========== SECTION 11: TESTIMONIALS ========== */}
-      <Testimonials />
-
-      {/* ========== SECTION 12: FAQ ========== */}
+     <StreamlinedProcess />
+       <ChoosingExcellence />
+     <Testimonials />
       <Faq />
     </div>
   );

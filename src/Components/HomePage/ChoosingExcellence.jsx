@@ -35,16 +35,16 @@ const excellenceCards = [
 function ChoosingExcellence() {
   return (
     <section className="py-8 md:py-12 px-4 md:px-8">
-      <div className="max-w-7xl mx-auto">
+      <div className=" mx-auto">
         <div className="text-center mb-8 md:mb-12">
           <h2 className="text-3xl md:text-4xl lg:text-[50px] font-bold text-[#0C1153] mb-2 md:mb-4">
             Choosing Guided Excellence for Your Surgical Guides
           </h2>
-          <p className="text-base md:text-lg lg:text-[20px] font-regular max-w-3xl mx-auto">
+          <p className="text-base md:text-lg lg:text-[20px] font-regular max-w-3xl mt-6 mx-auto">
             At Guided Excellence, every 3D printed implant surgical guide is designed with care by Dr. Zareh Baghoomian, a practicing dentist with over 20 years of experience.
           </p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6 md:gap-8 mb-8 md:mb-12">
+        <div className="grid grid-cols-1 max-w-7xl mx-auto sm:grid-cols-2 xl:grid-cols-4 gap-6 md:gap-8 mb-8 md:mb-12">
           {excellenceCards.map((card) => (
             <div key={card.id} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
               <div className="p-4 flex items-center justify-center">

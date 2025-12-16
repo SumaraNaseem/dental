@@ -37,7 +37,7 @@ function StreamlinedProcess({
 }) {
   return (
     <section className="bg-[#0C1152] py-8 sm:py-12 md:py-16">
-      <div className="max-w-full sm:max-w-2xl md:max-w-4xl lg:max-w-6xl xl:max-w-7xl mx-auto">
+      <div className="max-w-full mx-auto">
         <div className="text-center mb-6 sm:mb-8 md:mb-12 px-3 sm:px-6">
           <h1 className={`${titleClass} font-bold text-white mb-3 sm:mb-4 tracking-tighter !leading-tight px-1 sm:px-0`}>
             {title}
@@ -46,7 +46,7 @@ function StreamlinedProcess({
             {description}
           </p>
         </div>
-        <div className="px-3 sm3px-6 md:px-8 lg:px-12 xl:px-24">
+        <div className="px-4 sm:px-6 md:px-8 lg:px-12 xl:px-24 2xl:px-52 ">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-2 xl:gap-8 2xl:gap-12 mb-6 sm:mb-8 md:mb-12">
             {processSteps.map((step) => (
               <div
