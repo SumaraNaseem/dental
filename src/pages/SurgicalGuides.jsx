@@ -45,7 +45,7 @@ function SurgicalGuides() {
         description="A dental surgical guide is a patient-specific tool designed to guide the placement of dental implants with high precision. By controlling implant angulation, depth, and position, surgical guides reduce risks and improve procedural outcomes. Our dental guide design lab for implant surgery combines advanced planning with expert review to create guides that ensure predictable, safe, and efficient implant procedures."
         image={surgicalimg3}
         imageClass="w-[517px] h-[458px]"
-        rightSpacing="right-20 -translate-x-1/4"
+        rightSpacing="-right-20 lg:-translate-x-1/4"
         imageTopClass="2xl:top-1/2 -translate-y-1/2"
         titleClass="text-3xl md:text-4xl lg:text-[50px] font-bold text-[#0C1153]  !leading-tight max-w-[620px]"
         descriptionClass="text-base md:text-lg lg:text-[20px] font-regular leading-relaxed max-w-[590px] "
@@ -186,13 +186,13 @@ function SurgicalGuides() {
 
         image={Rectangle27}
 
-        imageClass="w-[628px] h-[833px]  "
+        imageClass="w-[628px] h-[420px] sm:h-[833px] lg:w-[628px] lg:h-[833px] xl:w-[728px] xl:h-[833px]  "
 
         sectionClass="bg-[#f8f8f8]  py- px-4 sm:px-6 md:px-8  lg:px-12 xl:px-24 2xl:px-52 2xl:pl-[135px] xl:pl-[70px] font-afacad "
 
         gridClass="grid grid-cols-1 lg:grid-cols-2 gap- items-center  "
 
-        titleClass="lg:text-[50px] text-[20px]max-w-[720px]"
+        titleClass="lg:text-[50px] text-[20px] max-w-[720px]"
 
         descriptionClass="text-[20px] max-w-[590px]"
 
@@ -267,7 +267,7 @@ function SurgicalGuides() {
       <Testimonials />
 
       {/* ========== SECTION 13: FAQ (Faq) ========== */}
-      <Faq
+      <Faq className=""
         faqData={[
           {
             id: 1,
@@ -308,7 +308,7 @@ function SurgicalGuides() {
               "To order a custom dental surgical guide, simply submit your case through our online portal or contact us directly. You'll need to provide digital scans (CBCT and intraoral scans) along with your treatment plan. Our team will review your case, provide a consultation if needed, and guide you through the ordering process.",
           },
         ]}
-        sectionClass="bg-white py-10"
+        sectionClass="bg-white py-10 px-4"
         containerClass="max-w-6xl mx-auto font-afacad"
         titleClass="lg:text-[50px] text-[20px] font-bold text-[#0C1152] uppercase"
         titleContainerClass="text-center mb-12"
