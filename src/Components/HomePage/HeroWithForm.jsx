@@ -125,7 +125,7 @@ function HeroWithForm({
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16  py-4 ">
           {/* Left Content */}
           <div className="lg:col-span-6 flex justify-center items-center   ">
-            <div className="text-center w-[650px] lg:text-left">
+            <div className="text-center w-[660px] lg:text-left">
               <h1 className="text-3xl md:text-4xl lg:text-[50px] font-medium mb-4 md:mb-6 text-white !leading-tight font-inter">
                 {title}
               </h1>
