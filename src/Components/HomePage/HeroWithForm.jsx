@@ -126,10 +126,10 @@ function HeroWithForm({
           {/* Left Content */}
           <div className="lg:col-span-6 flex justify-center items-center   ">
             <div className="text-center lg:text-left">
-              <h1 className="text-3xl md:text-4xl lg:text-[50px] font-regular mb-4 md:mb-6 text-white !leading-tight">
+              <h1 className="text-3xl md:text-4xl lg:text-[50px] font-medium mb-4 md:mb-6 text-white !leading-tight font-afacad">
                 {title}
               </h1>
-              <p className="text-white text-base md:text-lg 2xl:max-w-[600px] !leading-relaxed lg:text-[20px] font-regular font-afacad mb-6 md:mb-10 ">
+              <p className="text-white text-base md:text-lg 2xl:max-w-[600px] !leading-relaxed lg:text-[20px] font-normal font-afacad mb-6 md:mb-10 ">
                 {description}
               </p>
               <button className="bg-white text-black px-4 md:px-6 py-4 md:py-3 rounded-full text-sm md:text-base xl:text-[20px] font-bold hover:bg-gray-100 transition-colors">
