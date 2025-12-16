@@ -105,10 +105,10 @@ function Navbar() {
 
           {/* Desktop Action Buttons */}
           <div className="hidden lg:flex  items-center space-x-2 xl:space-x-3 text-sm xl:text-[20px] font-bold font-afacad">
-            <button className="px-3 xl:px-4 py-1.5 xl:py-4 rounded-full border-2 border-[#0C1152] bg-white text-[#0C1152] uppercase hover:bg-blue-50 transition-colors duration-200 text-xs xl:text-base whitespace-nowrap">
+            <button className="px-3 xl:px-4 py-1.5 xl:py-3 rounded-full border-2 border-[#0C1152] bg-white text-[#0C1152] uppercase hover:bg-blue-50 transition-colors duration-200 text-xs xl:text-base whitespace-nowrap">
               BOOK A FREE CONSULT
             </button>
-            <button className="px-3 xl:px-4 py-1.5 xl:py-4 rounded-full bg-[#0C1152] text-white uppercase hover:bg-[#0C1152] transition-colors duration-200 text-xs xl:text-base whitespace-nowrap">
+            <button className="px-3 xl:px-4 py-1.5 xl:py-3 rounded-full bg-[#0C1152] text-white uppercase hover:bg-[#0C1152] transition-colors duration-200 text-xs xl:text-base whitespace-nowrap">
               SUBMIT YOUR CASE
             </button>
           </div>
