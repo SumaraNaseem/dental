@@ -126,7 +126,7 @@ function HeroWithForm({
           {/* Left Content */}
           <div className="lg:col-span-6 flex justify-center items-center   ">
             <div className="text-center  lg:text-left">
-              <h1 className="text-3xl md:text-4xl lg:text-[50px] font-medium mb-4 md:mb-6 text-white !leading-tight font-afacad" dangerouslySetInnerHTML={{ __html: title }} />
+              <h1 className="text-3xl md:text-4xl lg:text-[50px] lg:leading-[58px] font-normal mb-4 md:mb-6 text-white tracking-normal font-afacad" dangerouslySetInnerHTML={{ __html: title }} />
               <p className="text-white text-base md:text-lg 2xl:max-w-[600px] !leading-relaxed lg:text-[20px] font-normal font-afacad mb-6 md:mb-10 ">
                 {description}
               </p>
