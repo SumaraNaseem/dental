@@ -174,7 +174,7 @@ function Testimonials() {
           <Slider {...settings}>
             {testimonials.map((testimonial, index) => (
               <div key={`${testimonial.id}-${index}`}>
-                <div className="bg-[#0C1152] border border-blue-400/30 rounded-lg py-6 md:py-8 px-4 md:px-[26px] shadow-lg text-center h-full md:h-[390px] lg:h-[450px] xl:h-[450px] 2xl:h-[450px]">
+                <div className="bg-[#0C1152] border border-blue-400/30 rounded-lg py-6 md:py-8 px-4 md:px-[26px] shadow-lg text-center h-full md:h-[390px] lg:h-[493px] xl:h-[400px] 2xl:h-[398px]">
                   <h3 className="text-white font-bold text-xl md:text-2xl lg:text-[24px] mb-4 md:mb-6">
                     {testimonial.name}
                   </h3>
