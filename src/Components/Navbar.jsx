@@ -56,7 +56,7 @@ function Navbar() {
           <div className="flex-shrink-0">
             <Link to="/" onClick={closeMenu} className="block">
               <img 
-                src={logo} 
+                src='https://res.cloudinary.com/djlpb1ld5/image/upload/v1765973864/logo-BRhPTYdU_yq6zyn.png' 
                 alt="Guided Excellence Logo" 
                 className="h-12 w-12 sm:h-14 sm:w-14 md:h-16 md:w-16 lg:h-[65px] lg:w-[65px] transition-all"
               />

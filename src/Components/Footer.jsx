@@ -131,7 +131,7 @@ function Footer() {
           <div className="flex justify-center lg:justify-start lg:col-span-2 h-[55px] sm:h-[60px] md:h-[127px]">
             <Link to="/" className="h-full">
               <img
-                src={logo}
+                src='https://res.cloudinary.com/djlpb1ld5/image/upload/v1765973864/logo-BRhPTYdU_yq6zyn.png'
                 alt="Guided Excellence Logo"
                 className="h-full w-auto object-contain max-w-full"
               />
