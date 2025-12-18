@@ -1,11 +1,4 @@
 import React from "react";
-import costomer1 from "../../assets/costomer1.png";
-import costomer2 from "../../assets/costomer2.png";
-import costomer3 from "../../assets/costomer3.png";
-import costomer4 from "../../assets/costomer4.png";
-import costomer5 from "../../assets/costomer5.png";
-import costomer6 from "../../assets/costomer6.png";
-import costomer7 from "../../assets/costomer7.png";
 
 const customerLogos = [
   'https://res.cloudinary.com/djlpb1ld5/image/upload/v1765974173/logo_7-D5ikdAoI_fothjr.svg',

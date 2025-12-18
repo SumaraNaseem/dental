@@ -46,7 +46,7 @@ function HowItWorks() {
         title="What Is an Implant Surgical Guide Lab?"
         description="An implant surgical guide lab is a dedicated center specializing in the creation of precise implant surgical guide solutions for dentists. Leveraging digital implant planning for dental labs, our expert team transforms diagnostic data into fully customized dental implant guides for dentists. By deploying the latest technology, each implant surgical guide lab case is handled with personalized attention - helping practices deliver predictable, repeatable outcomes for patients."
         image={surgicalimg2}
-        imageClass="2xl:w-[743px] 2xl:h-[518px]"
+        imageClass="2xl:w-[520px] 2xl:h-[434px] 3xl:w-[743px] 3xl:h-[518px]"
         rightSpacing="right-16"
       />
       {/* ========== SECTION 4: TYPES OF 3D PRINTED DENTAL IMPLANT GUIDES ========== */}

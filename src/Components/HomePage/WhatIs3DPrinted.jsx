@@ -5,7 +5,7 @@ function WhatIs3DPrinted({
   title = "What is a 3D Printed Implant Surgical Guides",
   description = "A 3D surgery implant guide is a custom designed tool used to guide the precise placement of dental implants. It ensures optimal angulation, depth, and positioning, reducing risks, and improving procedural outcomes.",
   image = surgicalimg1,
-  imageClass = "lg:w-[434px] lg:h-[250px] xl:w-[517px] xl:h-[300px] 2xl:w-[660px] 2xl:h-[434px]",
+  imageClass = "lg:w-[434px] lg:h-[250px] xl:w-[517px] xl:h-[300px] 2xl:w-[520px] 2xl:h-[434px] 3xl:w-[660px] 3xl:h-[434px]",
   rightSpacing = "right-0",
   titleClass = "text-3xl md:text-4xl lg:text-[50px] font-bold text-[#0C1153] -tracking-[0.03rem]",
   descriptionClass = "text-base md:text-lg lg:text-[20px] font-regular max-w-3xl leading-relaxed",
